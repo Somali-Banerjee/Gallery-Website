@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        photo<span>pi</span>X
+      </div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="icon">
+        <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg></i>
+        <a href="#">Login</a>
+      </div>
+    </nav>
+    <section class="h-text">
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+        <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z"/>
+        <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+      </svg>
+    
+      <h1 data-aos="fade-up">Capturing The Moments That Captivate Your Heart</h1>
+    <div class="whole">
+      <input type="text" name="" placeholder="Search Here..." >
+      <button id="yoyo">   <i><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+      </svg></i></button>
+    </div>
+
+    </section>
+  </header>
+
+  <section class="filter-gallery">
+    <div class="portfolio-menu">
+      <ul>
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".nature">Nature</li>
+        <li data-filter=".fashion">Fashion</li>
+        <li data-filter=".wedding">Wedding</li>
+      </ul>
+    </div>
+
+    <div class="portfolio-item">
+      <div class="item nature " data-aos="flip-left" data-aos-offset="100" data-aos-delay="100">
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg"  width="100" height="100">
+      </div>
+      <div class="item nature" data-aos="flip-left" data-aos-offset="100" data-aos-delay="200">
+        <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg" width="100" height="100">
+      </div>
+      <div class="item fashion" data-aos="flip-left" data-aos-offset="100" data-aos-delay="200">
+        <img src="https://static.toiimg.com/thumb/msid-86556990,width-400,resizemode-4/86556990.jpg"  width="100" height="100">
+      </div>
+      <div class="item fashion" data-aos="flip-left" data-aos-offset="100" data-aos-delay="200" >
+        <img src="https://assets.vogue.com/photos/5f74f7d208fdcc6598c7bb75/16:9/w_4095,h_2303,c_limit/_CIK0894.jpg"  width="100" height="100">
+      </div>
+      <div class="item fashion" data-aos="flip-left" data-aos-offset="100" data-aos-delay="200" >
+        <img src="https://assets.vogue.com/photos/667f2db74e7bb4dc3aa65fd5/3:4/w_1600%2Cc_limit/Collage.jpg" width="100" height="100">
+      </div>
+      <div class="item nature" data-aos="flip-left" data-aos-offset="100" data-aos-delay="200" >
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/TF/BK/UW/103578143/3d-nature-wallpaper-500x500.jpg"  width="100" height="100">
+      </div>
+      <div class="item wedding"  >
+        <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-406162,resizemode-75,msid-100353799/news/how-to/how-to-select-a-suitable-wedding-planner-for-your-big-fat-wedding/lavish-indian-weddings-are-back-and-bigger-than-ever.jpg"  width="100" height="100">
+      </div>
+      <div class="item wedding" >
+        <img src="https://www.theknot.com/tk-media/images/354958f7-9d64-46d5-90ca-8f7847253ba3.jpg"  width="100" height="100">
+      </div>
+      <div class="item wedding" >
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/230531120726-wedding-trends-restricted.jpg?c=16x9&q=h_833,w_1480,c_fill"  width="100" height="100">
+      </div>
+    </div>
+  </section>
+
+  <section class="member">
+    <div class="member-info" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+      <h1>Our <span>Information</span></h1>
+      <p>What our member says</p>
+    </div>
+    <div class="member-card" data-aos="zoom-in-down" data-aos-offset="100" data-aos-delay="200">
+      <img id="round" src="https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg" width="100" height="100" >
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, enim. Ullam, ratione facilis quae voluptatibus maiores aperiam eius incidunt mollitia quibusdam aspernatur voluptatem cumque, nesciunt sapiente est. Sequi corrupti nam voluptatibus rem ipsam placeat voluptatum animi ullam quasi error nulla tenetur quae, itaque reiciendis ex deserunt labore blanditiis sapiente deleniti!</p>
+      <h2>*Somali Banerjee</h2>
+      <img src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu.png" width="100">
+      <img src="https://images.fonearena.com/blog/wp-content/uploads/2016/06/Instagram-new-logo.jpg" width="100">
+      <img src="https://i0.wp.com/www.journeywithtechnology.com/wp-content/uploads/2017/04/WhatsApp_Logo_1.png?fit=1280%2C1067&ssl=1" width="200">
+      <img src="https://pbs.twimg.com/profile_images/378800000041711687/d6050eb6ce3f141847fe200a914205bc_400x400.png" width="100">
+    </div>
+
+    <div class="m-images" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
+      <img src="https://miro.medium.com/v2/resize:fit:1400/0*1V4x6TMhoDKUctYi" >
+      <img src="https://t4.ftcdn.net/jpg/03/26/98/51/360_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg" >
+      <img src="https://www.rada.ac.uk/media/thumbs/RADA_Second_Act_Helen_Murray-41_resized_720x480_trY6Y4L5BR7v.jpg" >
+      <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/photogallery/201303/w-25powerful-women-mar-25_031313040617.jpg?VersionId=Jz7n1wE2dEOev9b5MWNK_JS0vFTtmgSG&size=686:*" >
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/005/346/410/small_2x/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg" >
+      <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" >
+    </div>
+  </section>
+
+  <footer>
+    <div class="newsletter">
+      <div data-aos="fade-up" data-aos-offset="200" >
+        <h2>Subscribe our newsletter</h2>
+        <p>We are a team of non-cynics who truely care for our work.</p>
+      </div>
+      <div class="ntext" data-aos="fade-up-right" data-aos-offset="200">
+        <label>
+          <input  type="text" name="" placeholder="Enter your email">
+          <button >Subscribe</button>
+        </label>
+      </div>
+    </div>
+    <div class="f-contact" data-aos="zoom-in-up" data-aos-offset="200">
+      <div>
+        <h1>Information</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, et?</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-telegram"></i>
+        <i class="bi bi-twitter"></i>
+      </div>
+
+      <div>
+        <h1>Useful Links</h1>
+        <p>About Us</p>
+        <p>Gallery</p>
+        <p>Blog Posts</p>
+        <p>Pricing Plans</p>
+        
+      </div>
+
+      <div>
+        <h1>Details</h1>
+        <p>Photographers</p>
+        <p>Gallery</p>
+        <p>About</p>
+        <p>Pricing Plans</p>
+        
+      </div>
+
+      <div>
+        <h1>Help & Support</h1>
+        <p>Privacy Policy</p>
+        <p>Term & Conditions</p>
+        <p>Technical Support</p>
+        <p>Customer Care</p>
+        
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script type="text/javascript">
+    $('.portfolio-item').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+  $('.portfolio-menu ul li').click(function(){
+  $('.portfolio-menu ul li').removeClass('active');
+  $(this).addClass('active');
+
+  var selector=$(this).attr('data-filter');
+  $('.portfolio-item').isotope({
+    filter:selector
+  });
+  return false;
+});
+  </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
